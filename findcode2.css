@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Nimbus-Sans-D-OT-Light_32752';
+    src: url('Nimbus-Sans-D-OT-Light_32752.ttf');
+}
+
+body {
+  	line-height: 1.5;
+  	color: #38495C;
+	font-size: 30px;
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(to bottom, #ecf0f1 100%, #bdc3c7);
+}
+
+h2 {
+  	font-family: 'Nimbus-Sans-D-OT-Light_32752';
+  	font-weight: bold;
+}
+
+p {
+	font-family: 'Roboto-Light';
+}
+
+ins, del {
+	text-decoration: none;
+	border-radius: .3em;
+  	margin: -.4em .07em -.05em .07em;
+  	padding: 0 .3em;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+  	display: inline-block;
+  	font-family: 'Roboto-Light';
+}
+
+ins {
+	background-color: #96D3AB;
+	display: inline;
+}
+
+del {
+	background: rgba(231, 76, 60,.5);
+  	position: relative;
+  	width: .4em;
+  	height: 1.31em;
+  	top: .2em;
+	overflow: hidden;
+	color: transparent;
+  	cursor: no-drop;
+  	transition: padding-left ease .3s, padding-right ease .3s, color ease .15s;
+  	padding: 0 0 .1em 0;
+}
+
+del:hover {
+	color: #38495C;
+	display: inline;
+	top: unset;
+	position: unset;
+	width: auto;
+  	padding: 0 .35em 0em 0.35em;
+  	height: unset;
+	transition: padding-left ease .3s, padding-right ease .3s, color ease .7s;
+}
